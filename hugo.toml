@@ -1,4 +1,4 @@
-baseURL = "http://127.0.0.1:1316/"
+baseURL = "https://blog.aliavanoglu.com/"
 languageCode = "tr"
 title = "Ali Avanoğlu — Blog"
 theme = "PaperMod"

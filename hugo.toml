@@ -1,12 +1,11 @@
-
-baseURL = "http://127.0.0.1:1314/"  # lokal için böyle dursun; yayında blog.aliavanoglu.com olacak
+baseURL = "http://127.0.0.1:1316/"
 languageCode = "tr"
 title = "Ali Avanoğlu — Blog"
 theme = "PaperMod"
+enableRobotsTXT = true
+
 [pagination]
   pagerSize = 10
-
-enableRobotsTXT = true
 
 [params]
   author = "Ali Avanoğlu"
@@ -18,5 +17,4 @@ enableRobotsTXT = true
   ShowBreadCrumbs = true
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
-
+  home = ["HTML","RSS","JSON"]

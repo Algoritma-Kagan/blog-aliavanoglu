@@ -1,6 +1,6 @@
 baseURL = "https://blog.aliavanoglu.com/"
 languageCode = "tr"
-title = "Prof. Dr. Ali AVANOĞLU Blog Sayfası"
+title = "Prof. Dr. Ali AVANOĞLU"
 theme = "PaperMod"
 enableRobotsTXT = true
 
@@ -21,7 +21,7 @@ enableRobotsTXT = true
     enabled = true
     title = "Çocuk Ürolojisi ve Doğuştan Anomaliler Hakkında Ebeveynleri Bilgilendirici ve Anlaşılır Makaleler"
     subtitle = "<br/>-Bu site çocukların doğuştan üroloji anomalilerinin tedavisine adanmıştır.</small>"
-    imageUrl = "/img/Ali_Avanoglu-180.webp"
+    imageUrl = "/img/Ali_Avanoglu.webp"
     imageTitle = "Prof. Dr. Ali Avanoğlu"
     imageWidth = 180
     imageHeight = 180

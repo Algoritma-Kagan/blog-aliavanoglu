@@ -18,9 +18,6 @@ Karşıyaka / İZMİR
 
 ## Sosyal Medya
 
-- [Instagram](https://www.instagram.com/aliavanoglu/){target="_blank" rel="noopener"}  
-- [Facebook](https://www.facebook.com/izmircocukurolojisi){target="_blank" rel="noopener"}
+- <a href="https://www.instagram.com/aliavanoglu/" target="_blank" rel="noopener">Instagram</a>  
+- <a href="https://www.facebook.com/izmircocukurolojisi" target="_blank" rel="noopener">Facebook</a>
 
----
-
-> **Not:** Buradaki iletişim bilgileri bilgilendirme amaçlıdır. Randevu ve tıbbi sorularınız için lütfen telefon üzerinden doğrudan iletişime geçiniz.

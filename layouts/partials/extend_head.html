@@ -1,8 +1,38 @@
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0EYVX3L58B"></script>
+<!-- GA4: Delayed loader (improves FCP/LCP & cuts unused JS) -->
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-0EYVX3L58B');
+(function() {
+  function loadGA(){
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-0EYVX3L58B';
+    document.head.appendChild(s);
+
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function(){ dataLayer.push(arguments); };
+    gtag('js', new Date());
+    gtag('config', 'G-0EYVX3L58B', { transport_type: 'beacon', anonymize_ip: true });
+  }
+
+  var loaded = false;
+  function trigger(){ if(loaded) return; loaded = true; loadGA(); cleanup(); }
+  function cleanup(){
+    ['scroll','mousemove','touchstart','keydown'].forEach(function(e){
+      window.removeEventListener(e, trigger);
+    });
+    if (window.__gaIdle) cancelIdleCallback(window.__gaIdle);
+  }
+
+  // Kullanıcı etkileşimiyle tetikle
+  ['scroll','mousemove','touchstart','keydown'].forEach(function(e){
+    window.addEventListener(e, trigger, { once: true, passive: true });
+  });
+
+  // Etkileşim olmazsa, boşta iken (veya 1.5s sonra) tetikle
+  if ('requestIdleCallback' in window) {
+    window.__gaIdle = requestIdleCallback(function(){ setTimeout(trigger, 500); });
+  } else {
+    setTimeout(trigger, 1500);
+  }
+})();
 </script>
+

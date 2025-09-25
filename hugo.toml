@@ -1,6 +1,6 @@
 baseURL = "https://blog.aliavanoglu.com/"
 languageCode = "tr"
-title = "Prof. Dr. Ali AVANOĞLU"
+title = "Çocuk Ürolojisi İzmir — Prof. Dr. Ali AVANOĞLU"
 theme = "PaperMod"
 enableRobotsTXT = true
 
@@ -10,18 +10,21 @@ enableRobotsTXT = true
 [params]
   author = "Prof. Dr. Ali Avanoğlu"
   description = "Çocuk Ürolojisi ve Doğuştan Anomaliler Hakkında Ebeveynleri Bilgilendirici ve Anlaşılır Makaleler."
-  defaultTheme = "auto"  
-  disableThemeToggle = false
+  defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   env = "production"
 
+  # Sosyal paylaşım/OG için kapak görseli
+  images = ["/img/kapak-og.webp"]
+
+  # Ana sayfa profil/hero bloğu
   [params.profileMode]
     enabled = true
-    title = "Çocuk Ürolojisi ve Doğuştan Anomaliler Hakkında Ebeveynleri Bilgilendirici ve Anlaşılır Makaleler"
-    subtitle = "<br/>-Bu site çocukların doğuştan üroloji anomalilerinin tedavisine adanmıştır.</small>"
+    title = "Çocuk Ürolojisi İzmir — Prof. Dr. Ali AVANOĞLU"
+    subtitle = "Çocuk Ürolojisi ve Doğuştan Anomaliler Hakkında Ebeveynleri Bilgilendirici ve Anlaşılır Makaleler<br/><small>Bu site çocukların doğuştan üroloji anomalilerinin tedavisine adanmıştır.</small>"
     imageUrl = "/img/Ali_Avanoglu-180.webp"
     imageTitle = "Prof. Dr. Ali Avanoğlu"
     imageWidth = 180

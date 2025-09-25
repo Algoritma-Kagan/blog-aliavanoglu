@@ -43,4 +43,28 @@
     display: block;
   }
 }
+/* Telefon (sol altta) */
+#phone-button {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  left: 20px;        /* solda */
+  border-radius: 50%;
+  z-index: 1000;
+  cursor: pointer;
+  display: none;     /* varsayılan gizli */
+}
+
+#phone-button img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Sadece mobilde göster (WhatsApp gibi) */
+@media (max-width: 768px) {
+  #phone-button { display: block; }
+}
 

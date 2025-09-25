@@ -10,7 +10,8 @@ enableRobotsTXT = true
 [params]
   author = "Prof. Dr. Ali Avanoğlu"
   description = "Çocuk Ürolojisi ve Doğuştan Anomaliler Hakkında Ebeveynleri Bilgilendirici ve Anlaşılır Makaleler."
-  defaultTheme = "auto"
+  defaultTheme = "auto"  
+  disableThemeToggle = false
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true

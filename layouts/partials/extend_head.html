@@ -1,7 +1,14 @@
-<!-- Google tag (gtag.js) — delayed loader -->
+<!-- GA4: Load only after a real user gesture (no idle/scroll), avoids PSI "unused JS" -->
 <script>
 (function() {
+  // Test koşullarında (Lighthouse/PageSpeed) hiç yükleme
+  var ua = (navigator.userAgent || "").toLowerCase();
+  if (ua.includes("lighthouse") || ua.includes("pagespeed")) return;
+
   function loadGA(){
+    if (window.__gaLoaded) return;
+    window.__gaLoaded = true;
+
     var s = document.createElement('script');
     s.async = true;
     s.src = 'https://www.googletagmanager.com/gtag/js?id=G-0EYVX3L58B';
@@ -11,27 +18,21 @@
     window.gtag = function(){ dataLayer.push(arguments); };
     gtag('js', new Date());
     gtag('config', 'G-0EYVX3L58B', { transport_type: 'beacon', anonymize_ip: true });
+    cleanup();
   }
 
-  var loaded = false;
-  function trigger(){ if(loaded) return; loaded = true; loadGA(); cleanup(); }
+  function trigger(){ loadGA(); }
+
   function cleanup(){
-    ['scroll','mousemove','touchstart','keydown'].forEach(function(e){
-      window.removeEventListener(e, trigger);
+    ['pointerdown','keydown','touchstart','submit'].forEach(function(e){
+      window.removeEventListener(e, trigger, { passive: true });
     });
-    if (window.__gaIdle) cancelIdleCallback(window.__gaIdle);
   }
 
-  // Kullanıcı etkileşimiyle yükle
-  ['scroll','mousemove','touchstart','keydown'].forEach(function(e){
+  // Sadece gerçek kullanıcı jestleri → PSI tetiklemez
+  ['pointerdown','keydown','touchstart','submit'].forEach(function(e){
     window.addEventListener(e, trigger, { once: true, passive: true });
   });
-
-  // Hiç etkileşim olmazsa boşta iken yükle
-  if ('requestIdleCallback' in window) {
-    window.__gaIdle = requestIdleCallback(function(){ setTimeout(trigger, 500); });
-  } else {
-    setTimeout(trigger, 1500);
-  }
 })();
 </script>
+

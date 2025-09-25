@@ -1,6 +1,6 @@
 baseURL = "https://blog.aliavanoglu.com/"
 languageCode = "tr"
-title = "Çocuk Ürolojisi — Bilgi ve Rehber"
+title = "Çocuk ürolojisi İzmir - Prof. Dr. Ali AVANOĞLU Blog Sayfası"
 theme = "PaperMod"
 enableRobotsTXT = true
 
@@ -8,40 +8,48 @@ enableRobotsTXT = true
   pagerSize = 10
 
 [params]
-  author = "Ali Avanoğlu"
-  description = "Çocuk ürolojisi: inmemiş testis, hipospadias, vezikoüreteral reflü (VUR), sünnet, gece alt ıslatma, böbrek ve idrar yolu hastalıkları hakkında kanıta dayalı bilgiler."
+  author = "Prof. Dr. Ali Avanoğlu"
+  description = "Çocuk Ürolojisi ve Doğuştan Anomaliler Hakkında Aileleri Bilgilendirici ve Anlaşılır Makaleler."
   defaultTheme = "auto"
   ShowReadingTime = true
-  ShowShareButtons = true
+  ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   env = "production"
 
-  # Ana sayfa kahraman metni (PaperMod)
-  [params.homeInfoParams]
-    Title = "Çocuk Ürolojisi"
-    Content = "Aileler için anlaşılır, hekimler için titiz: inmemiş testis, hipospadias, VUR ve diğer çocuk ürolojisi konuları."
+  # Ana sayfa: profil modu + görsel + başlık + alt metin
+  [params.profileMode]
+    enabled = true
+    title = "Çocuk ürolojisi İzmir — Prof. Dr. Ali AVANOĞLU"
+    subtitle = "Çocuk Ürolojisi ve Doğuştan Anomaliler Hakkında Aileleri Bilgilendirici ve Anlaşılır Makaleler.<br/><small>Bu site çocukların doğuştan üroloji anomalilerinin tedavisine adanmıştır.</small>"
+    imageUrl = "/img/Ali_Avanoglu.webp"
+    imageTitle = "Prof. Dr. Ali Avanoğlu"
+    imageWidth = 180
+    imageHeight = 180
+    buttons = [
+      { name = "Makaleler", url = "/posts/" },
+      { name = "Hakkımda",  url = "/about/" }
+    ]
 
 [outputs]
   home = ["HTML","RSS","JSON"]
 
-# Taksonomiler
 [taxonomies]
   category = "categories"
   tag = "tags"
 
 [menu]
   [[menu.main]]
-    name = "Blog"
-    url  = "/posts/"
+    name = "Hakkımda"
+    url  = "/about/"
     weight = 1
   [[menu.main]]
-    name = "SSS"
-    url  = "/sss/"
+    name = "Makaleler"
+    url  = "/posts/"
     weight = 2
   [[menu.main]]
-    name = "Hakkında"
-    url  = "/about/"
+    name = "KVKK"
+    url  = "/kvkk/"
     weight = 3
   [[menu.main]]
     name = "İletişim"

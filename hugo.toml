@@ -19,8 +19,8 @@ enableRobotsTXT = true
 
   [params.profileMode]
     enabled = true
-    title = "Çocuk Ürolojisi İzmir — Blog"
-    subtitle = "Çocuk Ürolojisi ve Doğuştan Anomaliler Hakkında Ebeveynleri Bilgilendirici ve Anlaşılır Makaleler<br/>- Prof. Dr. Ali AVANOĞLU<br/><small>Bu site çocukların doğuştan üroloji anomalilerinin tedavisine adanmıştır.</small>"
+    title = "Çocuk Ürolojisi ve Doğuştan Anomaliler Hakkında Ebeveynleri Bilgilendirici ve Anlaşılır Makaleler"
+    subtitle = "<br/>- Prof. Dr. Ali AVANOĞLU<br/><small><br/>-Bu site çocukların doğuştan üroloji anomalilerinin tedavisine adanmıştır.</small>"
     imageUrl = "/img/Ali_Avanoglu.webp"
     imageTitle = "Prof. Dr. Ali Avanoğlu"
     imageWidth = 180

@@ -1,4 +1,4 @@
-<!-- GA4: Delayed loader (improves FCP/LCP & cuts unused JS) -->
+<!-- Google tag (gtag.js) — delayed loader -->
 <script>
 (function() {
   function loadGA(){
@@ -22,12 +22,12 @@
     if (window.__gaIdle) cancelIdleCallback(window.__gaIdle);
   }
 
-  // Kullanıcı etkileşimiyle tetikle
+  // Kullanıcı etkileşimiyle yükle
   ['scroll','mousemove','touchstart','keydown'].forEach(function(e){
     window.addEventListener(e, trigger, { once: true, passive: true });
   });
 
-  // Etkileşim olmazsa, boşta iken (veya 1.5s sonra) tetikle
+  // Hiç etkileşim olmazsa boşta iken yükle
   if ('requestIdleCallback' in window) {
     window.__gaIdle = requestIdleCallback(function(){ setTimeout(trigger, 500); });
   } else {
@@ -35,4 +35,3 @@
   }
 })();
 </script>
-

@@ -9,4 +9,4 @@ draft = false
 
 Akademik geçmişimde Ege Üniversitesi’nde 1996’da Doçent, 2002’de Profesör oldum; anabilim/bilim dalı başkanlıkları, eğitim koordinatörlükleri ve çeşitli dernek görevleri üstlendim. Ulusal ve uluslararası çok sayıda yayın ve sunum yaptım.
 
-> **Tıbbi uyarı:** Buradaki bilgiler genel bilgilendirme amaçlıdır. Tanı ve tedavi için hekim değerlendirmesi şarttır.
+> **Tıbbi uyarı:** Bu sitede yayınlanan makaleler genel bilgilendirme amaçlıdır. Tanı ve tedavi için hekim değerlendirmesi şarttır.

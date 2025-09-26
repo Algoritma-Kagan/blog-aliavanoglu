@@ -9,7 +9,7 @@ cover = { image = "/img/Ali_Avanoglu-180.webp", alt = "Prof. Dr. Ali Avanoğlu" 
 ## Uzmanlık Alanım
 
 40 yıllık hekimim, 32 yıldır çocuk cerrahisi uzmanıyım. 1994 yılından beri yalnız **çocuk ürolojisi** ile, diğer bir deyişle bebeklerin ve çocukların doğuştan karmaşık ürolojik problemleri üzerinde çalışıyorum.
-
+![Prof. Dr. Ali Avanoğlu](/img/Ali_Avanoglu-portre.webp){ width=180px align=left style="margin:0 20px 20px 0;" }
 - Yaklaşık **3000** hipospadias ameliyatı  
 - **1000+** vezikoüreteral reflü (VUR) cerrahisi  
 - Yaklaşık **150** exstrophia vesicae ve epispadias onarımı  

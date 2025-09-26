@@ -53,23 +53,6 @@ Uluslararası kılavuzlar, en yüksek başarı ve en düşük risk için **6–1
 - İnternetteki bilgi kirliliğine değil, **uzman hekim** görüşüne güvenin.  
 - Erken cerrahi, çocuğun gelecekteki sağlığı için **yatırımdır**.
 
----
-
-## Sık Sorulan Sorular (SSS)
-
-**İnmemiş testis kendiliğinden düzelir mi?**  
-İlk 6 ayda düzelme görülebilir. 6. ayı geçtiyse kendiliğinden düzelme beklenmez.
-
-**İlaçla tedavi mümkün mü?**  
-Kılavuzlar ilk tercih olarak **cerrahiyi** önerir; hormon tedavilerinin başarı oranı düşüktür.
-
-**İki taraflı inmemiş testiste süreç farklı mı?**  
-Değerlendirme daha yakından yapılır ama **zamanlama prensibi** aynıdır: 6–12 ay arası cerrahi önerilir.
-
-**Ameliyat izi büyük olur mu?**  
-Modern tekniklerle genellikle **küçük iz** kalır; iyileşme hızlıdır.
-
----
 
 > **Tıbbi Uyarı:** Bu yazı bilgilendirme amaçlıdır. Tanı ve tedavi için mutlaka **çocuk ürolojisi uzmanına** başvurunuz.
 

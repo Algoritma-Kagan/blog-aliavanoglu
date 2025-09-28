@@ -3,6 +3,10 @@ languageCode = "tr"
 title = "Çocuk Ürolojisi İzmir — Prof. Dr. Ali AVANOĞLU"
 theme = "PaperMod"
 enableRobotsTXT = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [pagination]
   pagerSize = 10

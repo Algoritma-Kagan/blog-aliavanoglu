@@ -20,6 +20,12 @@ enableRobotsTXT = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   env = "production"
+cover = { 
+  image = "/img/posts/bebeklerde-bobrek-tasi-hero.webp",
+  alt = "Bebeklerde böbrek taşı hakkında bilgilendirici görsel",
+  hidden = false,
+  relative = false
+}
 
   # Sosyal paylaşım/OG için kapak görseli
   images = ["/img/kapak-og.webp"]

@@ -11,11 +11,7 @@ ShowReadingTime = false
 ShowToc = true
 TocOpen = true
 draft = false
-cover = { 
-  image = "/img/posts/bebeklerde-bobrek-tasi-hero.webp",
-  alt = "Bebeklerde böbrek taşı hakkında bilgilendirici görsel",
-  hidden = false        # anasayfa ve yazı üstünde gözüksün
-}
+![Bebeklerde böbrek taşı ultrason görüntüsü](/img/posts/bebeklerde-bobrek-tasi-ultrason.webp "Bebeklerde böbrek taşı ultrason görüntüsü")
 
 +++
 

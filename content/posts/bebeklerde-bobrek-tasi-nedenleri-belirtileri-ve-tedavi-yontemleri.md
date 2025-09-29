@@ -30,6 +30,9 @@ cover = {
 
 **Bebeklerde böbrek taşı**, ebeveynlerin nadiren karşılaştığı ancak oldukça ciddi bir sağlık sorunu olabilir. Yetişkinlerde daha yaygın olan bu durum, bebeklerde metabolik bozukluklar, genetik faktörler veya beslenme hataları nedeniyle ortaya çıkabilir.
 
+![Bebeklerde böbrek taşı ultrason görüntüsü](/img/posts/bebeklerde-bobrek-tasi-ultrason.webp "Bebeklerde böbrek taşı ultrason görüntüsü")
+
+
 Bebeklerde böbrek taşı oluşumu, idrar yollarında mineral birikimiyle başlar ve erken fark edilmezse böbrek fonksiyonlarını etkileyebilir. Bu makalede, bebeklerde böbrek taşının ne olduğu, nedenleri, belirtileri, teşhis yöntemleri ve tedavi seçeneklerini detaylı şekilde ele alıyoruz. Ayrıca, olası komplikasyonlar, önleme yolları ve **Sık Sorulan Sorular (SSS)** bölümünde merak edilenleri yanıtlıyoruz.
 
 Dünya Sağlık Örgütü verilerine göre, bebeklerde böbrek taşı görülme oranı **%0.1–0.5** arasındadır ve erkek bebeklerde kızlara göre biraz daha fazladır. Prematüre doğan veya aile öyküsü olan bebeklerde risk artar. Eğer bebeğinizde idrar yaparken ağlama, ateş veya kusma gibi belirtiler varsa, hemen bir **çocuk ürolojisi uzmanına** danışmanız önerilir. Bu yazı, tıbbi araştırmalara dayalı genel bilgi sunmak amacıyla hazırlanmıştır ve doktor tavsiyesinin yerini almaz.

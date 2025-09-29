@@ -19,7 +19,7 @@ cover = {
 }
 +++
 
-![Bebeklerde böbrek taşı ultrason görüntüsü](/img/posts/bebeklerde-bobrek-tasi-ultrason.webp "Bebeklerde böbrek taşı ultrason görüntüsü")
+![Bebeklerde böbrek taşı ultrason görüntüsü](static/img/bebeklerde-bobrek-tasi-og.webp "Bebeklerde böbrek taşı ultrason görüntüsü")
 
 
 ## Giriş

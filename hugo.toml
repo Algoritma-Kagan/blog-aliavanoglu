@@ -1,79 +1,49 @@
-
 baseURL = "https://blog.aliavanoglu.com/"
 languageCode = "tr"
 defaultContentLanguage = "tr"
 title = "Çocuk Ürolojisi İzmir — Prof. Dr. Ali AVANOĞLU"
 theme = "PaperMod"
 enableRobotsTXT = true
+paginate = 10
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
 
-[pagination]
-  pagerSize = 10
-
 [params]
   author = "Prof. Dr. Ali Avanoğlu"
   description = "Çocuk Ürolojisi ve Doğuştan Anomaliler Hakkında Ebeveynleri Bilgilendirici ve Anlaşılır Makaleler."
   defaultTheme = "auto"
-  ShowReadingTime = true
+  ShowReadingTime = false
   ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
-  env = "production"
-cover = { 
-  image = "/img/posts/bebeklerde-bobrek-tasi-hero.webp",
-  alt = "Bebeklerde böbrek taşı hakkında bilgilendirici görsel",
-  hidden = false,
-  relative = false
-}
+  ShowToc = true
+  TocOpen = true
 
-  # Sosyal paylaşım/OG için kapak görseli
-  images = ["/img/kapak-og.webp"]
-
-  # Ana sayfa profil/hero bloğu
-  [params.profileMode]
-    enabled = true
-    title = "Çocuk Ürolojisi İzmir — Prof. Dr. Ali AVANOĞLU"
-    subtitle = "Çocuk Ürolojisi ve Doğuştan Anomaliler Hakkında Ebeveynleri Bilgilendirici ve Anlaşılır Makaleler<br/><small>Bu site çocukların doğuştan üroloji anomalilerinin tedavisine adanmıştır.</small>"
-    imageUrl = "/img/Ali_Avanoglu-180.webp"
-    imageTitle = "Prof. Dr. Ali Avanoğlu"
-    imageWidth = 180
-    imageHeight = 180
-    buttons = [
-      { name = "Makaleler", url = "/posts/" },
-      { name = "Hakkımda",  url = "/about/" }
-    ]
-
-[outputs]
-  home = ["HTML","RSS","JSON"]
-
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-
+# İsteğe bağlı: menü (PaperMod uyumlu)
 [menu]
+
   [[menu.main]]
     name = "Hakkımda"
-    url  = "/about/"
-    weight = 1
+    url = "/about/"
+    weight = 10
+
   [[menu.main]]
     name = "Makaleler"
-    url  = "/posts/"
-    weight = 2
+    url = "/posts/"
+    weight = 20
+
   [[menu.main]]
     name = "KVKK"
-    url  = "/kvkk/"
-    weight = 3
+    url = "/kvkk/"
+    weight = 30
+
   [[menu.main]]
     name = "İletişim"
-    url  = "/iletisim/"
-    weight = 4
-cover = { 
-  image = "/img/posts/bebeklerde-bobrek-tasi-hero.webp",
-  alt = "Bebeklerde böbrek taşı hakkında bilgilendirici görsel",
-  hidden = false,
-  relative = false
-}
-
+    url = "/iletisim/"
+    weight = 40

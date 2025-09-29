@@ -68,3 +68,10 @@ cover = {
     name = "İletişim"
     url  = "/iletisim/"
     weight = 4
+cover = { 
+  image = "/img/posts/bebeklerde-bobrek-tasi-hero.webp",
+  alt = "Bebeklerde böbrek taşı hakkında bilgilendirici görsel",
+  hidden = false,
+  relative = false
+}
+

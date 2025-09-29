@@ -4,7 +4,8 @@ defaultContentLanguage = "tr"
 title = "Çocuk Ürolojisi İzmir — Prof. Dr. Ali AVANOĞLU"
 theme = "PaperMod"
 enableRobotsTXT = true
-paginate = 10
+[pagination]
+  pagerSize = 10
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

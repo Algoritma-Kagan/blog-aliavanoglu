@@ -2,22 +2,25 @@
 title = "Bebeklerde Böbrek Taşı: Nedenleri, Belirtileri ve Tedavi Yöntemleri"
 description = "Bebeklerde böbrek taşı nedir, neden olur, belirtileri nelerdir? Teşhis ve tedavi seçenekleri, komplikasyonlar, önleme yolları ve SSS."
 slug = "bebeklerde-bobrek-tasi-nedenleri-belirtileri-ve-tedavi-yontemleri"
+
 keywords = ["bebeklerde böbrek taşı","çocuk ürolojisi","bebekte idrarda kan","hiperkalsiüri","ESWL","üreteroskopi"]
-seo = { focus_keyword = "bebeklerde böbrek taşı" }
 tags = ["Böbrek Taşı","Çocuk Ürolojisi","Ebeveyn Rehberi"]
 categories = ["Ebeveyn Rehberi"]
-hideMeta = true
-ShowReadingTime = false
+
+# PaperMod
 ShowToc = true
 TocOpen = true
+hideMeta = true
 draft = false
-cover = { 
-  image = "/img/posts/bebeklerde-bobrek-tasi-hero.webp",
-  alt = "Bebeklerde böbrek taşı hakkında bilgilendirici görsel",
-  hidden = false,
+
+# Kapak görseli (static/img/posts/… dosyalarına işaret eder)
+[cover]
+  image = "/img/posts/bebeklerde-bobrek-tasi-hero.webp"
+  alt = "Bebeklerde böbrek taşı hakkında bilgilendirici görsel"
+  hidden = false
   relative = false
-}
 +++
+
 
 ![Bebeklerde böbrek taşı ultrason görüntüsü](static/img/bebeklerde-bobrek-tasi-og.webp "Bebeklerde böbrek taşı ultrason görüntüsü")
 

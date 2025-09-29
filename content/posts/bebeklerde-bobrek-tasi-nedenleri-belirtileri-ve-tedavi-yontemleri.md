@@ -24,17 +24,7 @@ draft = false
 
 ![Bebeklerde böbrek taşı ultrason görüntüsü](static/img/bebeklerde-bobrek-tasi-og.webp "Bebeklerde böbrek taşı ultrason görüntüsü")
 
-
 ## Giriş
-(Buradan itibaren yazının içeriği…)
-
-
-## Giriş
-
-<img src="/img/posts/bebeklerde-bobrek-tasi-ultrason.webp" 
-     alt="Bebeklerde böbrek taşı ultrason görüntüsü" 
-     loading="lazy" width="800" height="450" />
-<em>Ultrason ile taşın yeri ve boyutu değerlendirilebilir.</em>
 
 **Bebeklerde böbrek taşı**, ebeveynlerin nadiren karşılaştığı ancak oldukça ciddi bir sağlık sorunu olabilir. Yetişkinlerde daha yaygın olan bu durum, bebeklerde metabolik bozukluklar, genetik faktörler veya beslenme hataları nedeniyle ortaya çıkabilir.
 

@@ -1,5 +1,7 @@
+
 baseURL = "https://blog.aliavanoglu.com/"
 languageCode = "tr"
+defaultContentLanguage = "tr"
 title = "Çocuk Ürolojisi İzmir — Prof. Dr. Ali AVANOĞLU"
 theme = "PaperMod"
 enableRobotsTXT = true

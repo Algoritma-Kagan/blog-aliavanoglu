@@ -1,22 +1,21 @@
 +++
 title = "Çocuklarda İdrar Yolu Reflüsü (VUR): Belirtileri ve Aileler İçin Kapsamlı Rehber"
-description = "Çocuklarda idrar yolu reflüsü (vezikoüreteral reflü - VUR) belirtileri, tanı ve tedavi süreci hakkında aileler için kapsamlı rehber."
+description = "Çocuklarda idrar yolu reflüsü (VUR) belirtileri, tanı ve tedavi süreci hakkında aileler için kapsamlı rehber."
 slug = "cocuklarda-idrar-yolu-reflusu"
-keywords = ["çocuklarda idrar yolu reflüsü", "vezikoüreteral reflü", "VUR belirtileri", "çocuk ürolojisi"]
-seo = { focus_keyword = "çocuklarda idrar yolu reflüsü" }
-tags = ["Çocuk Ürolojisi","Ebeveyn Rehberi"]
+keywords = ["çocuklarda idrar yolu reflüsü", "vezikoüreteral reflü", "vur belirtileri", "çocuk ürolojisi"]
+tags = ["Çocuk Ürolojisi", "Ebeveyn Rehberi"]
 categories = ["Ebeveyn Rehberi"]
 hideMeta = true
-ShowReadingTime = false
-ShowToc = true
+showReadingTime = false
+showToc = true
 TocOpen = true
 draft = false
-cover = { 
-  image = "/img/posts/cocuklarda-idrar-yolu-reflusu.webp",
-  alt = "Çocuklarda idrar yolu reflüsü (VUR) hakkında bilgilendirici görsel",
-  hidden = false,
-  relative = false
-}
+
+[cover]
+image = "/img/posts/cocuklarda-idrar-yolu-reflusu.webp"
+alt = "Çocuklarda idrar yolu reflüsü (VUR) hakkında bilgilendirici görsel"
+hidden = false
+relative = false
 +++
 
 ![Çocuklarda idrar yolu reflüsü görseli](/img/posts/cocuklarda-idrar-yolu-reflusu.webp "Çocuklarda idrar yolu reflüsü görseli")

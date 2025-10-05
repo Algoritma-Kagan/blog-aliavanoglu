@@ -18,8 +18,6 @@ hidden = false
 relative = false
 +++
 
-![Çocuklarda idrar yolu reflüsü görseli](/img/posts/cocuklarda-idrar-yolu-reflusu.webp "Çocuklarda idrar yolu reflüsü görseli")
-
 ## Giriş
 
 Çocuklarda idrar yolu reflüsü (vezikoüreteral reflü - VUR), mesaneden böbreklere idrarın geri kaçması durumudur. Normal şartlarda idrar, mesaneden dışarı tek yönlü olarak atılır. Ancak VUR’da bu mekanizma bozulur ve idrar böbreklere doğru geri akar. Çocuklarda sık görülen bu durum, tekrarlayan idrar yolu enfeksiyonlarına, böbrek hasarına ve uzun vadede ciddi sağlık sorunlarına yol açabilir.
